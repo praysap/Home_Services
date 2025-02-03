@@ -1,5 +1,6 @@
+
 const config = {
-  serverURL: 'http://localhost:8080/api'
+  serverURL: process.env.REACT_APP_URL
   // serverURL: 'http://35.154.10.33:8080/api'
 
 }
